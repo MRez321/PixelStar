@@ -19,11 +19,11 @@ export default function Home() {
 
     <section>
       <h1>PixelStar Next</h1>
-      <ul className='flex flex-col flex-1 items-center justify-center'>
-        <li>
+      <ul className='flex flex-col flex-1 items-center justify-center gap-2'>
+        <li className='bg-emerald-300 hover:bg-emerald-600 p-2 rounded-2xl'>
           <Link href="/dev/checklist" className=''>ProjectChecklist</Link>
         </li>
-        <li>
+        <li className='bg-emerald-300 hover:bg-emerald-600 p-2 rounded-2xl'>
           <Link href="/dev/roadmap">ProjectRoadmap</Link>
         </li>
 
