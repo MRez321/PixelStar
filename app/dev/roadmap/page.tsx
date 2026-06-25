@@ -5,10 +5,9 @@ export default function RoadMap() {
   return (
     <>
     <div>
+    <Link href='/'>Home</Link>
+
       <ProjectRoadmap />
-
-      <Link href='/'>Home</Link>
-
     </div>
     </>
   )

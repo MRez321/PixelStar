@@ -5,9 +5,9 @@ export default function CheckList() {
   return (
     <>
       <div>
-        <ProjectChecklist />
-
         <Link href='/'>Home</Link>
+
+        <ProjectChecklist />
       </div>
     </>
   )
